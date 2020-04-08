@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.A {
+    width: 100%;
+}
+
+.Head_wyy {
+    height: 70px;
+    z-index: 1000;
+    box-sizing: border-box;
+    background: #242424;
+    border-bottom: 1px solid #000;
+}
+
+.Head_wyy_list {
+    width: 73%;
+    min-width: 1100px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.logo {
+    width: 151px;
+    background: url(../img/topbar.png) no-repeat;
+}
+
+.Head_wyy_list_s {
+    float: left;
+    padding: 0 19px;
+    list-style: none;
+    height: 70px;
+    line-height: 70px;
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+.Label_color {
+    color: #cccccc;
+    display: inline-block;
+    /*跟随父元素的高度*/
+    height: inherit;
+}
+
+
+.add_color:hover {
+    background: #000000;
+}
+
+.Label_color:hover {
+    color: #ffffff;
+}
+
+a {
+    color: #cccccc;
+    text-decoration: none;
+    line-height: 70px;
+    display: inline-block;
+    /*跟随父元素的高度*/
+    height: inherit;
+}
+
+.input_search {
+    height: 32px;
+    background: #eee;
+    border: 1px solid #eee;
+    border-radius: 8px;
+}
