@@ -3,9 +3,6 @@
     padding: 0;
 }
 
-.A {
-    width: 100%;
-}
 
 .Head_wyy {
     height: 70px;
@@ -16,7 +13,7 @@
 }
 
 .Head_wyy_list {
-    width: 73%;
+    width: 1200px;
     min-width: 1100px;
     margin: 0 auto;
     height: 100%;
@@ -34,7 +31,6 @@
     height: 70px;
     line-height: 70px;
     font-size: 14px;
-    margin: 0 auto;
 }
 
 .Label_color {
@@ -62,9 +58,58 @@ a {
     height: inherit;
 }
 
-.input_search {
+
+.zzzx {
+    border: 1px solid #969696;
+    float: left;
+    list-style: none;
+    width: 60px;
+    height: 33px;
+    line-height: 33px;
+    padding: 0 19px;
+    margin-top: 19px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+.zzzx:hover {
+    border: 1px solid white;
+}
+
+.hot {
+    display: block;
+    position: absolute;
+    top: 21px;
+    left: 100px;
+    width: 40px;
+    height: 19px;
+    background: url(../img/topbar.png) -184px 0;
+}
+
+label {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 90px;
+    width: 90%;
+    color: #9b9b9b;
+    cursor: text;
+    font-size: 12px;
+}
+
+.search_table {
     height: 32px;
-    background: #eee;
+    background: #ffffff;
     border: 1px solid #eee;
-    border-radius: 8px;
+    border-radius: 15px;
+    margin-left: 40px;
+    margin-top: 19px;
+    width: 160px;
+}
+
+.search_img {
+    height: 25px;
+    width: 60px;
+    position: absolute;
+    background: url(../img/topbar.png) -237px -100px;
 }
