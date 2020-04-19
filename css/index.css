@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -9,11 +9,10 @@
     z-index: 1000;
     box-sizing: border-box;
     background: #242424;
-    border-bottom: 1px solid #000;
 }
 
 .Head_wyy_list {
-    width: 1200px;
+    width: 1110px;
     min-width: 1100px;
     margin: 0 auto;
     height: 100%;
@@ -26,11 +25,12 @@
 
 .Head_wyy_list_s {
     float: left;
-    padding: 0 19px;
+    padding: 0 17px;
     list-style: none;
     height: 70px;
     line-height: 70px;
     font-size: 14px;
+    color: #787878;
 }
 
 .Label_color {
@@ -38,6 +38,7 @@
     display: inline-block;
     /*跟随父元素的高度*/
     height: inherit;
+    position:relative;
 }
 
 
@@ -78,12 +79,11 @@ a {
 
 .hot {
     display: block;
-    position: absolute;
     top: 21px;
     left: 100px;
-    width: 40px;
+    width: 36px;
     height: 19px;
-    background: url(../img/topbar.png) -184px 0;
+    background: url(../img/topbar.png) -190px 0;
 }
 
 label {
@@ -112,9 +112,63 @@ label {
     position: absolute;
     background: url(../img/topbar.png) -237px -100px;
 }
-#auto-id-fntVzLSd3b4mCg5h{
+
+#ab67b25693ac58e2a7ccf122440a3215 {
     margin-top: 20px;
     line-height: 30px;
     height: 30px;
     margin-left: 5px;
+}
+
+.search_input {
+    margin-left: 30px;
+    width: 120px;
+    position: absolute;
+    margin-top: 5px;
+    border: 0;
+    height: 21px;
+}
+
+.search {
+    display: none;
+}
+
+input {
+    outline-style: none;
+}
+
+.Two_line {
+    height: 35px;
+    background-color: #C20C0C;
+}
+
+.Subscript1 {
+    position: absolute;
+    top: 64px;
+    width: 17px;
+    height: 7px;
+    margin-left: 20px;
+    overflow: hidden;
+    background: url(../img/topbar.png) -943px 215px;
+    display: none;
+}
+.Subscript2 {
+    position: absolute;
+    top: 64px;
+    width: 17px;
+    height: 7px;
+    margin-left: 18px;
+    overflow: hidden;
+    background: url(../img/topbar.png) -943px 215px;
+    display: none;
+}
+.Subscript3 {
+    position: absolute;
+    top: 64px;
+    width: 17px;
+    height: 7px;
+    margin-left: 6px;
+    overflow: hidden;
+    background: url(../img/topbar.png) -943px 215px;
+    display: none;
 }

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en" style="width: 120%">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Title</title>
 </head>
 <link rel="stylesheet" href="css/index.css" type="text/css">
@@ -11,34 +11,68 @@
         <div class="Head_wyy_list">
             <h1 class="Head_wyy_list_s logo"><a></a></h1>
             <ul>
-                <li class="Head_wyy_list_s add_color"><a href="/#"><span class="Label_color">发现音乐</span></a></li>
-                <li class="Head_wyy_list_s add_color"><a href="/#"><span class="Label_color">我的音乐</span></a></li>
-                <li class="Head_wyy_list_s add_color"><a href="/#"><span class="Label_color">朋友</span></a></li>
-                <li class="Head_wyy_list_s add_color"><a href="/#"><span class="Label_color">商城</span></a></li>
-                <li class="Head_wyy_list_s add_color"><a href="/#"><span class="Label_color">音乐人</span></a></li>
+                <li class="Head_wyy_list_s add_color" style="position:relative;" onclick="funcation0003(this)"><a href="#"><span class="Label_color">发现音乐</span><span id="61b34b584b604098bff3949a69dd9631" class="Subscript1">&nbsp</span></a></li>
+                <li class="Head_wyy_list_s add_color" onclick="funcation0004(this)"><a href="#"><span class="Label_color" onclick="funcation0004(this)">我的音乐</span><span id="23487dd255b5443cba8d9ea64b3e1160" class="Subscript2">&nbsp</span></a></li>
+                <li class="Head_wyy_list_s add_color" onclick="funcation0005(this)"><a href="#"><span class="Label_color" onclick="funcation0005(this)">朋友</span><span id="adcf452efffc4749aa038a1c14df95ee" class="Subscript3">&nbsp</span></a></li>
+                <li class="Head_wyy_list_s add_color"><a href="#"><span class="Label_color">商城</span></a></li>
+                <li class="Head_wyy_list_s add_color"><a href="#"><span class="Label_color">音乐人</span></a></li>
                 <li class="Head_wyy_list_s add_color" style="position:relative;">
-                    <a href="/#"><span class="Label_color">下载客户端</span></a>
+                    <a href="#"><span class="Label_color">下载客户端</span></a>
                     <sup class="hot" style="position: absolute;">&nbsp;</sup>
                 </li>
                 <li class="Head_wyy_list_s" style="position:relative;">
                     <div class="search_table">
                         <div class="search_img"></div>
-                        <label class="ph j-flag" id="auto-id-fntVzLSd3b4mCg5h">音乐/视频/电台/用户</label>
+                        <label class="ph j-flag" id="ab67b25693ac58e2a7ccf122440a3215" onclick="funcation0001()">音乐/视频/电台/用户</label>
+                        <input class="search_input search" type="text" id="2f487c72ae1b4e4793d955c9ef5c72f7" onblur="funcation0002()">
                     </div>
                 </li>
                 <li class="zzzx">
-                    <span style="color: #ccc;"><a href="/#" class="Label_color" style="line-height: 33px">创作者中心</a></span>
+                    <span style="color: #ccc;"><a href="#" class="Label_color" style="line-height: 33px">创作者中心</a></span>
                 </li>
-                <li class="Head_wyy_list_s"><a href="/#">登录</a></li>
+                <li class="Head_wyy_list_s"><a href="#"><span style="font-size: 12px;color: #787878">登录</span></a></li>
             </ul>
         </div>
+    </div>
+    <div class="Two_line">
+
+
     </div>
 </div>
 
 <script type="text/javascript">
+    function funcation0001() {
+        document.getElementById("ab67b25693ac58e2a7ccf122440a3215").style.display = "none";
+        document.getElementById("2f487c72ae1b4e4793d955c9ef5c72f7").style.display = "block";
+        document.getElementById("2f487c72ae1b4e4793d955c9ef5c72f7").focus();
+    }
 
+    function funcation0002() {
+        document.getElementById("ab67b25693ac58e2a7ccf122440a3215").style.display = "block";
+        document.getElementById("2f487c72ae1b4e4793d955c9ef5c72f7").style.display = "none";
+        document.getElementById("2f487c72ae1b4e4793d955c9ef5c72f7").value = " ";
+    }
 
+    function funcation0003(a) {
+        document.getElementById("23487dd255b5443cba8d9ea64b3e1160").style.display = "none";
+        document.getElementById("adcf452efffc4749aa038a1c14df95ee").style.display = "none";
+        document.getElementById("61b34b584b604098bff3949a69dd9631").style.display = "block";
+        a.style.backgroundColor = "#000000";
+    }
 
+    function funcation0004(a) {
+        document.getElementById("61b34b584b604098bff3949a69dd9631").style.display = "none";
+        document.getElementById("adcf452efffc4749aa038a1c14df95ee").style.display = "none";
+        document.getElementById("23487dd255b5443cba8d9ea64b3e1160").style.display = "block";
+        a.style.backgroundColor = "#000000";
+    }
+
+    function funcation0005(a) {
+        document.getElementById("61b34b584b604098bff3949a69dd9631").style.display = "none";
+        document.getElementById("23487dd255b5443cba8d9ea64b3e1160").style.display = "none";
+        document.getElementById("adcf452efffc4749aa038a1c14df95ee").style.display = "block";
+        a.style.backgroundColor = "#000000";
+    }
 </script>
 
 </body>
